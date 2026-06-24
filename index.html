@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>রবিউল টেলিকম গিফ্ট সেন্টার</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600;700&family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Hind Siliguri', 'Inter', sans-serif; background-color: #f8fafc; }
+        .glass { background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px); }
+        .premium-card { transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+        .premium-card:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgba(59, 130, 246, 0.1), 0 10px 10px -5px rgba(59, 130, 246, 0.04); border-color: #3b82f6; }
+        .gradient-text { background: linear-gradient(90deg, #2563eb, #1d4ed8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .en-font { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="text-gray-900">
+
+    <div class="bg-slate-900 text-slate-300 py-2.5 border-b border-slate-800 text-xs font-medium">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-2">
+            <div class="flex flex-wrap justify-center items-center gap-4 md:gap-6">
+                <span class="flex items-center gap-1.5 en-font"><i class="fa-solid fa-phone text-blue-400"></i> +880 1400-662963</span>
+                <span class="flex items-center gap-1.5"><i class="fa-solid fa-location-dot text-blue-400"></i> ফাইতং , লামা , বান্দরবান , চট্টগ্রাম , বাংলাদেশ</span>
+            </div>
+            <div class="flex items-center gap-2 tracking-wide">
+                <span class="text-blue-400 font-bold uppercase">প্রোপ্রাইটর:</span> 
+                <span class="text-white font-semibold">মোঃ রবিউল করিম ( কাজল )</span>
+            </div>
+        </div>
+    </div>
+
+    <header class="glass sticky top-0 z-40 border-b border-gray-100 shadow-sm backdrop-blur-md">
+        <div class="container mx-auto px-4 h-20 flex justify-between items-center">
+            <div class="flex items-center gap-4">
+                <div class="w-14 h-14 bg-gradient-to-br from-blue-600 to-indigo-700 rounded-2xl flex items-center justify-center text-white shadow-lg overflow-hidden border-2 border-white shrink-0">
+                    <img src="https://i.postimg.cc/vmLQcpBS/IMG-20260624-001803.png" alt="Logo" class="w-full h-full object-cover">
+                </div>
+                <div>
+                    <h1 class="text-xl md:text-2xl font-black gradient-text uppercase tracking-tight">রবিউল টেলিকম গিফ্ট সেন্টার</h1>
+                    <p class="text-[10px] text-gray-400 font-bold uppercase tracking-widest en-font">Online Digital Market</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-medium text-sm py-3 shadow-inner overflow-hidden whitespace-nowrap">
+        <marquee behavior="scroll" direction="left" scrollamount="6" onmouseover="this.stop();" onmouseout="this.start();">
+            💥 <span class="font-bold text-yellow-300">রবিউল টেলিকম গিফ্ট সেন্টার আপনাকে স্বাগতম!</span> আপনার কেনাকাটাকে সহজ করতে আমরা নিয়ে এসেছি আমাদের এই <span class="en-font font-bold">online</span> প্ল্যাটফর্ম। এখানে আপনি আমাদের দোকানের সব লেটেস্ট কালেকশন পাবেন। আপনার পছন্দের পণ্যটি বেছে নিন এবং স্ক্রিনশট তুলে ফেসবুক অর্ডারে ক্লিক করে আমাদের জানিয়ে দিন। রবিউল টেলিকম গিফ্ট সেন্টার সবসময় আপনার সেবায় নিয়োজিত। 🚚 <span class="font-bold text-emerald-300">[ দ্রুত ডেলিভারি ]</span> ✨ <span class="font-bold text-cyan-300">[ ১০০% কোয়ালিটি ] প্রোপ্রাইটর: মোঃ রবিউল করিম ( কাজল ) , যোগাযোগ +880 1400-662963 </span> 💥
+        </marquee>
+    </div>
+
+    <div class="container mx-auto px-4 mt-6">
+        <div class="max-w-md mx-auto bg-white p-2 rounded-2xl shadow-md border border-gray-100 flex items-center gap-2">
+            <div class="pl-3 text-blue-500">
+                <i class="fa-solid fa-magnifying-glass text-lg"></i>
+            </div>
+            <input type="text" id="search-input" onkeyup="searchProducts()" placeholder="পছন্দের পণ্যটি এখানে খুঁজুন..." class="w-full py-2 bg-transparent text-sm text-gray-800 outline-none placeholder-gray-400 font-medium">
+            <span class="bg-blue-50 text-blue-600 text-xs px-3 py-2 rounded-xl font-bold uppercase tracking-wider shrink-0 en-font">Search</span>
+        </div>
+    </div>
+
+    <div class="container mx-auto px-4 mt-6">
+        <div class="w-full min-h-[90px] bg-white border border-gray-100 rounded-2xl p-4 flex items-center justify-center shadow-sm overflow-hidden text-center">
+            <div id="top-ad-slot"><script>
+  atOptions = {
+    'key' : 'b4163f90ac591880afe2eb689a0972a3',
+    'format' : 'iframe',
+    'height' : 50,
+    'width' : 320,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highperformanceformat.com/b4163f90ac591880afe2eb689a0972a3/invoke.js"></script></div>
+        </div>
+    </div>
+
+    <main class="container mx-auto px-4 py-10">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-2 border-b border-gray-100 pb-5">
+            <div>
+                <span class="text-blue-600 font-black tracking-widest text-xs uppercase mb-1 block">এক্সক্লুসিভ কালেকশন</span>
+                <h3 class="text-3xl font-black text-slate-900">আমাদের অফারসমূহ ও <span class="text-blue-600">পণ্যসমূহ</span></h3>
+            </div>
+            <p class="text-xs text-gray-400 font-medium">নিখুঁত কোয়ালিটি ও সঠিক মূল্যের নিশ্চয়তা</p>
+        </div>
+        
+        <div id="product-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <p class="text-gray-400 col-span-full text-center py-12 font-medium animate-pulse">পণ্য লোড হচ্ছে...</p>
+        </div>
+    </main>
+
+    <div class="container mx-auto px-4 mb-16">
+        <div class="w-full min-h-[90px] bg-white border border-gray-100 rounded-2xl p-4 flex items-center justify-center shadow-sm overflow-hidden text-center">
+            <div id="bottom-ad-slot"><script>
+  atOptions = {
+    'key' : 'b4163f90ac591880afe2eb689a0972a3',
+    'format' : 'iframe',
+    'height' : 50,
+    'width' : 320,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highperformanceformat.com/b4163f90ac591880afe2eb689a0972a3/invoke.js"></script></div>
+        </div>
+    </div>
+
+    <footer class="bg-white border-t border-gray-100 py-10 text-center text-sm text-gray-400">
+        <div class="container mx-auto px-4">
+            <p class="text-slate-800 font-bold mb-1 en-font">&copy; 2026 রবিউল টেলিকম অনলাইন শপ। সর্বস্বত্ব সংরক্ষিত।</p>
+            <p class="text-[11px] text-gray-400 en-font">Premium Digital Showcase Framework</p>
+        </div>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+    
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyDbOBZaPoOCTbkdUoR2t4qlX7Optij9Hog",
+            authDomain: "phutonto-gelap-sangathan.firebaseapp.com",
+            databaseURL: "https://phutonto-gelap-sangathan-default-rtdb.firebaseio.com",
+            projectId: "phutonto-gelap-sangathan",
+            storageBucket: "phutonto-gelap-sangathan.firebasestorage.app",
+            messagingSenderId: "795205633358",
+            appId: "1:795205633358:web:fa3c11cf10f20c7a42ca1f",
+            measurementId: "G-QSJ833FBBR"
+        };
+        
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+        const fbPageLink = "https://www.facebook.com/share/1D5W5kncBE/";
+        
+        let allProducts = [];
+
+        // নিরাপদভাবে অ্যাড স্ক্রিপ্ট লোড করার ফাংশন
+        function insertAd(elementId) {
+            const adContainer = document.getElementById(elementId);
+            if (!adContainer) return;
+            
+            const scriptOptions = document.createElement("script");
+            scriptOptions.text = `atOptions = { 'key' : 'b4163f90ac591880afe2eb689a0972a3', 'format' : 'iframe', 'height' : 50, 'width' : 320, 'params' : {} };`;
+            
+            const scriptInvoke = document.createElement("script");
+            scriptInvoke.src = "https://www.highperformanceformat.com/b4163f90ac591880afe2eb689a0972a3/invoke.js";
+            
+            adContainer.appendChild(scriptOptions);
+            adContainer.appendChild(scriptInvoke);
+        }
+
+        function loadProducts() {
+            db.collection("products").orderBy("timestamp", "desc").onSnapshot((snapshot) => {
+                allProducts = [];
+                snapshot.forEach((doc) => {
+                    allProducts.push(doc.data());
+                });
+                renderProducts(allProducts);
+            });
+        }
+
+        function renderProducts(productsList) {
+            const container = document.getElementById("product-container");
+            container.innerHTML = "";
+            let count = 0;
+
+            if (productsList.length === 0) {
+                container.innerHTML = `<p class="text-gray-400 col-span-full text-center py-10 font-medium"><i class="fa-solid fa-box-open mr-2"></i>দুঃখিত, এই নামের কোনো পণ্য খুঁজে পাওয়া যায়নি!</p>`;
+                return;
+            }
+
+            productsList.forEach((product) => {
+                const productDesc = product.description ? product.description : "বিস্তারিত স্পেসিফিকেশন ও স্টকের জন্য নিচে অর্ডার করুন।";
+                
+                // 🛠️ অ্যাডমিন প্যানেল থেকে আসা লিংকটি এখানে 'বিস্তারিত' বাটনে বসবে। 
+                // যদি অ্যাডমিন প্যানেল থেকে কোনো লিংক পাঠানো না হয়, তবে ব্যাকআপ হিসেবে ফেসবুক পেজের লিংক কাজ করবে।
+                const detailsLink = product.customLink ? product.customLink : fbPageLink;
+
+                const productHTML = `
+                    <div class="premium-card bg-white rounded-[1.5rem] shadow-sm border border-gray-100 overflow-hidden relative group flex flex-col justify-between">
+                        <div>
+                            <div class="relative overflow-hidden h-64 bg-slate-50">
+                                <img src="${product.image || 'https://via.placeholder.com/300'}" alt="${product.name || 'Product'}" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                                <div class="absolute top-3.5 left-3.5">
+                                    <span class="bg-blue-600/90 text-white backdrop-blur-sm text-[10px] font-black px-3 py-1 rounded-full uppercase tracking-wider shadow-sm en-font">NEW</span>
+                                </div>
+                            </div>
+                            <div class="p-5 pb-2">
+                                <h4 class="font-bold text-slate-800 text-base mb-2 line-clamp-1">${product.name || 'নামহীন পণ্য'}</h4>
+                                <p class="text-xs text-gray-500 font-medium line-clamp-3 mb-2 bg-slate-50 p-2.5 rounded-xl border border-gray-100/50 leading-relaxed">${productDesc}</p>
+                            </div>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <div class="flex items-center justify-between border-t border-gray-50 pt-4 gap-2">
+                                <div>
+                                    <span class="text-[10px] text-gray-400 block uppercase font-bold tracking-tight">মূল্য</span>
+                                    <span class="text-lg font-black text-blue-600 en-font">৳ ${product.price || '0'}</span>
+                                </div>
+                                <div class="flex items-center gap-1.5 shrink-0">
+                                    <a href="${detailsLink}" target="_blank" class="bg-slate-100 hover:bg-slate-200 text-slate-700 h-9 px-3 rounded-xl text-xs font-bold flex items-center gap-1 transition-all active:scale-95 border border-slate-200">
+                                        <i class="fa-solid fa-circle-info text-sm text-slate-500"></i> বিস্তারিত
+                                    </a>
+                                    <a href="${fbPageLink}" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white h-9 px-3 rounded-xl text-xs font-bold flex items-center gap-1 transition-all shadow-md shadow-blue-600/10 active:scale-95">
+                                        <i class="fa-brands fa-facebook-messenger text-sm"></i> অর্ডার
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                container.innerHTML += productHTML;
+                count++;
+
+                if (count % 4 === 0) {
+                    const uniqueInfeedId = "infeed-ad-" + count;
+                    container.innerHTML += `
+                        <div class="col-span-full py-2 flex justify-center">
+                            <div id="${uniqueInfeedId}" class="w-full min-h-[90px] bg-slate-50 border border-dashed border-slate-200 rounded-2xl p-4 flex items-center justify-center text-center">
+                            </div>
+                        </div>`;
+                    setTimeout(() => insertAd(uniqueInfeedId), 100);
+                }
+            });
+        }
+
+        function searchProducts() {
+            const query = document.getElementById("search-input").value.toLowerCase().trim();
+            if (query === "") {
+                renderProducts(allProducts);
+                return;
+            }
+            const filtered = allProducts.filter(product => {
+                const pName = product.name ? product.name.toLowerCase() : "";
+                const pDesc = product.description ? product.description.toLowerCase() : "";
+                return pName.includes(query) || pDesc.includes(query);
+            });
+            renderProducts(filtered);
+        }
+
+        // পেজ রেডি হওয়ার পর বিজ্ঞাপন এবং প্রোডাক্ট লোড করা
+        window.addEventListener('DOMContentLoaded', () => {
+            insertAd("top-ad-slot");
+            insertAd("bottom-ad-slot");
+            loadProducts();
+        });
+    </script>
+</body>
+</html>
